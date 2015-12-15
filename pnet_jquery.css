@@ -1,0 +1,211 @@
+#nav,#nav ul{
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+#nav{
+  clear: both;
+  font-size: 12px;
+  height: 43px;
+  padding: 0 0 0 0px;
+  position: relative;
+  width: 100%;
+  background-color:#212121;
+  border: inset;
+  border-radius: 7px;
+  border-color: blue;
+}
+#nav ul{
+  background-color: #222;
+  border:1px solid #222;
+  border-radius: 0 5px 5px 5px;
+  border-width: 0 1px 1px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  left: -9999px;
+  overflow: hidden;
+  position: absolute;
+  top: -9999px;
+  z-index: 2;
+  -moz-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  -o-transform: scaleY(0);
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  /*-moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -moz-transition: -moz-transform 0.1s linear;
+  -ms-transition: -ms-transform 0.1s linear;
+  -o-transition: -o-transform 0.1s linear;
+  -webkit-transition: -webkit-transform 0.1s linear;
+  transition: transform 0.1s linear;*/
+}
+#nav li{
+  float: left;
+  position: relative;
+  text-align: center;
+}
+#nav li a{
+  color: #FFFFFF;
+  display: block;
+  float: left;
+  font-weight: normal;
+  height: 30px;
+  padding: 13px 13px 0px 13px;
+  position: relative;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #000000;
+  width: 307px;
+  align-items: center;
+}
+#nav li:hover > a{
+  color: #00B4FF;
+}
+#nav li:hover, #nav a:focus, #nav a:hover, #nav a:active{
+  background: none repeat scroll 0 0 #121212;
+  outline: 0 none;
+  border-radius:5px;
+}
+#nav li:hover ul.subs{
+  left: 0;
+  top: 53px;
+  width: auto;
+  margin-top: -10px;
+  border-radius: 5px;
+
+  -moz-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  -o-transform: scaleY(1);
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+#nav ul li{
+  background: none;
+  width: 100%;
+}
+#nav ul li a{
+  float: none;
+}
+#nav ul li:hover > a{
+  background-color: #121212;
+  color: #00B4FF;
+}
+
+.imgfixe{
+ width: 100%;
+}
+
+.slideshow{
+ width: 550px;
+ height: 200px;
+ overflow: hidden;
+ border: 3px solid #F2F2F2 ;
+  margin-left:18%;
+}
+
+.slideshow ul{
+ width: 500%;
+ height: 200px;
+ padding:0; margin:0;
+ list-style: none;
+}
+
+.slideshow li{
+ float: left;
+}
+
+footer{
+ width: 100%;
+ height: 110px;
+ margin-top: 170px;
+ position: relative;
+}
+
+.img{
+ width: 100px;
+ height: 100px;
+ border: 2px inset blue;
+ margin-top: -45px;
+}
+
+.adressepostale{
+ float: right;
+ margin-right: 10px;
+}
+
+.adressemail{
+ float: right;
+}
+
+.contact1{
+ text-align: center;
+ margin-top: -85px;
+}
+
+.contact2{
+ text-align: center;
+ margin-top: -70px;
+}
+
+.mail{
+ text-decoration: none;
+ color: black;
+}
+
+.anneecreation{
+ padding-top: 25px;
+ text-align: center;
+}
+
+.menuderoulant{
+  padding-bottom: 100px;
+}
+#jsddm{
+  margin: 0;
+	padding: 0;
+}
+
+	#jsddm li{
+    float: left;
+		list-style: none;
+		font: 12px Tahoma, Arial
+  }
+
+	#jsddm li a{
+    display: block;
+		background: #20548E;
+		padding: 5px 12px;
+		text-decoration: none;
+		border-right: 1px solid white;
+		width: 70px;
+		color: #EAFFED;
+		white-space: nowrap
+  }
+
+	#jsddm li a:hover{
+    background: #1A4473
+  }
+
+		#jsddm li ul{
+      margin: 0;
+			padding: 0;
+			position: absolute;
+			visibility: hidden;
+			border-top: 1px solid white
+    }
+
+		#jsddm li ul li{
+      float: none;
+			display: inline
+    }
+
+		#jsddm li ul li a{
+      width: auto;
+			background: #9F1B1B
+    }
+
+		#jsddm li ul li a:hover{
+      background: #7F1616
+    }
